@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{0ef813e7-f003-4b09-8a4a-3552db5dde65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Net">
+      <UniqueIdentifier>{6d9a72f1-0008-472c-8ff7-6941bb6315a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common\UIInfo">
+      <UniqueIdentifier>{a595663f-2600-43e6-97a1-99637f799bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common\Config">
+      <UniqueIdentifier>{ef5edf6d-b689-4b36-b0bc-57046c925406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager">
+      <UniqueIdentifier>{7cb9e18a-3ed9-4dba-b881-7dabfba4cf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Manager\Scene">
+      <UniqueIdentifier>{4782d8a2-7f29-4421-8bd3-d0630fe8c583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common\Audio">
+      <UniqueIdentifier>{6230bbb2-545c-46bd-8cb1-4d6b27e85c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common\Packet">
+      <UniqueIdentifier>{06f9e4a7-f34c-4eef-b936-75fe214a833d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\UIInfo\UIInfo.cpp">
+      <Filter>Classes\Common\UIInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\UIInfo\UIInfoProc.cpp">
+      <Filter>Classes\Common\UIInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Scene\BaseScene.cpp">
+      <Filter>Classes\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Manager\Scene\FirstScene.cpp">
+      <Filter>Classes\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Audio\GameAudio.cpp">
+      <Filter>Classes\Common\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Packet\PacketFactoryManager.cpp">
+      <Filter>Classes\Common\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Common.cpp">
+      <Filter>Classes\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LifeCircleLogger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\UIInfo\UIInfo.h">
+      <Filter>Classes\Common\UIInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Config\Config.h">
+      <Filter>Classes\Common\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Scene\BaseScene.h">
+      <Filter>Classes\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Manager\Scene\FirstScene.h">
+      <Filter>Classes\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Audio\GameAudio.h">
+      <Filter>Classes\Common\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Packet\PacketFactoryManager.h">
+      <Filter>Classes\Common\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Packet\PacketDefine.h">
+      <Filter>Classes\Common\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Packet\PacketFactory.h">
+      <Filter>Classes\Common\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Common.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Type.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Packet\Packet.h">
+      <Filter>Classes\Common\Packet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
